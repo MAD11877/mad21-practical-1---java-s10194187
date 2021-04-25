@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.swing.plaf.synth.SynthMenuBarUI;
+
 public class Question3
 {
   public static void main(String[] args)
@@ -12,5 +14,8 @@ public class Question3
      
     Scanner in = new Scanner(System.in);
     
+    int num = in.nextInt();
+    int times = num * num;
+    System.out.print(times);
   }
 }
